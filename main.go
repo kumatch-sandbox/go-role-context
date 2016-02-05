@@ -17,7 +17,7 @@ type CatRole struct {
 }
 
 func (cat *CatRole) say() string {
-	return "meow, meow"
+	return fmt.Sprintf("meow, meow, no %s", cat.name)
 }
 
 func (cat *CatRole) hello() string {
